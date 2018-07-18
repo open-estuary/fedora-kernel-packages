@@ -660,13 +660,11 @@ Patch519: 1-2-posix-timers-Make-forward-callback-return-s64.patch
 Patch520: 2-2-posix-timers-Sanitize-overrun-handling.patch
 
 # CVE-2018-13093 rhbz 1597766 1597767
-Patch521: 0001-xfs-validate-cached-inodes-are-free-when-allocated.patch
 
 # CVE-2018-13094 rhbz 1597771 1597772
 Patch522: 0001-xfs-don-t-call-xfs_da_shrink_inode-with-NULL-bp.patch
 
 # CVE-2018-13095 rhbz 1597775 1597777
-Patch523: 0001-xfs-More-robust-inode-extent-count-validation.patch
 
 # CVE-2018-13405 rhbz 1599161 1599162
 Patch524: CVE-2018-13405.patch
@@ -675,7 +673,6 @@ Patch524: CVE-2018-13405.patch
 Patch525: xen-remove-global-bit-from-__default_kernel_pte_mask.patch
 
 # rhbz 1597333
-Patch526: xhci-Fix-perceived-dead-host-due-to-runtime-suspend-.patch
 
 # END OF PATCH DEFINITIONS
 
