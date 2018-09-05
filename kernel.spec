@@ -48,7 +48,7 @@ Summary: The Linux kernel
 # base_sublevel is the kernel version we're starting with and patching
 # on top of -- for example, 3.1-rc7-git1 starts with a 3.0 base,
 # which yields a base_sublevel of 0.
-%define base_sublevel 16
+%define base_sublevel 18
 
 ## If this is a released kernel ##
 %if 0%{?released_kernel}
@@ -524,7 +524,7 @@ Patch114: silence-fbcon-logo.patch
 
 Patch115: Kbuild-Add-an-option-to-enable-GCC-VTA.patch
 
-Patch116: crash-driver.patch
+#Patch116: crash-driver.patch
 
 Patch117: lis3-improve-handling-of-null-rate.patch
 
@@ -584,10 +584,10 @@ Patch304: ACPI-irq-Workaround-firmware-issue-on-X-Gene-based-m400.patch
 Patch305: qcom-msm89xx-fixes.patch
 
 # https://marc.info/?l=linux-kernel&m=152328880417846&w=2
-Patch307: arm64-thunderx-crypto-zip-fixes.patch
+#Patch307: arm64-thunderx-crypto-zip-fixes.patch
 
 # https://www.spinics.net/lists/linux-crypto/msg32725.html
-Patch308: crypto-testmgr-Allow-different-compression-results.patch
+#Patch308: crypto-testmgr-Allow-different-compression-results.patch
 
 Patch309: arm-tegra-fix-nouveau-crash.patch
 
@@ -595,16 +595,16 @@ Patch309: arm-tegra-fix-nouveau-crash.patch
 #Patch310: arm-dts-Add-am335x-pocketbeagle.patch
 
 # https://www.spinics.net/lists/linux-tegra/msg32920.html
-Patch311: arm-tegra-USB-driver-dependency-fix.patch
+#Patch311: arm-tegra-USB-driver-dependency-fix.patch
 
 # https://patchwork.kernel.org/patch/10348701/
-Patch312: arm64-msm8916-fix-gic_irq_domain_translate-warnings.patch
+#Patch312: arm64-msm8916-fix-gic_irq_domain_translate-warnings.patch
 
 # https://patchwork.kernel.org/patch/10354521/
 # https://patchwork.kernel.org/patch/10354187/
 # https://patchwork.kernel.org/patch/10306793/
 # https://patchwork.kernel.org/patch/10133165/
-Patch313: mvebu-a37xx-fixes.patch
+#Patch313: mvebu-a37xx-fixes.patch
 
 # Enabling Patches for the RPi3+
 #Patch330: bcm2837-rpi-initial-3plus-support.patch
@@ -619,29 +619,29 @@ Patch332: bcm2837-enable-pmu.patch
 Patch501: Fix-for-module-sig-verification.patch
 
 # rhbz 1431375
-Patch502: input-rmi4-remove-the-need-for-artifical-IRQ.patch
+#Patch502: input-rmi4-remove-the-need-for-artifical-IRQ.patch
 
 # rhbz 1470995
 Patch503: kexec-bzimage-verify-pe-signature-fix.patch
 
 # rbhz 1435837
 # https://www.spinics.net/lists/linux-acpi/msg82405.html
-Patch504: mailbox-ACPI-erroneous-error-message-when-parsing-ACPI.patch
+# Patch504: mailbox-ACPI-erroneous-error-message-when-parsing-ACPI.patch
 
 # https://www.spinics.net/lists/platform-driver-x86/msg15719.html
-Patch507: platform-x86-dell-laptop-Fix-keyboard-backlight-time.patch
+#Patch507: platform-x86-dell-laptop-Fix-keyboard-backlight-time.patch
 
 # rhbz 1577106
 # http://lists.infradead.org/pipermail/ath10k/2018-June/011582.html
-Patch508: ath10k-Update-the-phymode-along-with-bandwidth-change.patch
+# Patch508: ath10k-Update-the-phymode-along-with-bandwidth-change.patch
 
 # rhbz 1568276
 # In 4.18
 #Patch509: rtc-nvmem-don-t-return-an-error-when-not-enabled.patch
 
 # rhbz 1584216
-Patch510: 1-2-xen-netfront-Fix-mismatched-rtnl_unlock.patch
-Patch511: 2-2-xen-netfront-Update-features-after-registering-netdev.patch
+#Patch510: 1-2-xen-netfront-Fix-mismatched-rtnl_unlock.patch
+#Patch511: 2-2-xen-netfront-Update-features-after-registering-netdev.patch
 
 # rhbz 1591516
 #Patch515: 0001-signal-Stop-special-casing-TRAP_FIXME-and-FPE_FIXME-.patch
@@ -662,15 +662,15 @@ Patch520: 2-2-posix-timers-Sanitize-overrun-handling.patch
 # CVE-2018-13093 rhbz 1597766 1597767
 
 # CVE-2018-13094 rhbz 1597771 1597772
-Patch522: 0001-xfs-don-t-call-xfs_da_shrink_inode-with-NULL-bp.patch
+#Patch522: 0001-xfs-don-t-call-xfs_da_shrink_inode-with-NULL-bp.patch
 
 # CVE-2018-13095 rhbz 1597775 1597777
 
 # CVE-2018-13405 rhbz 1599161 1599162
-Patch524: CVE-2018-13405.patch
+#Patch524: CVE-2018-13405.patch
 
 # rhbz 1592976
-Patch525: xen-remove-global-bit-from-__default_kernel_pte_mask.patch
+#Patch525: xen-remove-global-bit-from-__default_kernel_pte_mask.patch
 
 # rhbz 1597333
 

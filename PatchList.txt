@@ -30,7 +30,7 @@ silence-fbcon-logo.patch
 
 Kbuild-Add-an-option-to-enable-GCC-VTA.patch
 
-crash-driver.patch
+# crash-driver.patch
 
 #Secure boot patches
 Add-secure_modules-call.patch
