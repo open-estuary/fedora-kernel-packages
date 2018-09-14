@@ -538,8 +538,8 @@ Patch121: xen-pciback-Don-t-disable-PCI_COMMAND-on-PCI-device-.patch
 
 Patch122: Input-synaptics-pin-3-touches-when-the-firmware-repo.patch
 
+
 # This no longer applies, let's see if it needs to be updated
-# Patch123: firmware-Drop-WARN-from-usermodehelper_read_trylock-.patch
 
 # 200 - x86 / secureboot
 
@@ -567,6 +567,7 @@ Patch211: drm-i915-hush-check-crtc-state.patch
 #Patch212: efi-secureboot.patch
 #Patch213: lockdown-fix-coordination-of-kernel-module-signature-verification.patch
 
+
 # 300 - ARM patches
 Patch300: arm64-Add-option-of-13-for-FORCE_MAX_ZONEORDER.patch
 
@@ -583,39 +584,27 @@ Patch304: ACPI-irq-Workaround-firmware-issue-on-X-Gene-based-m400.patch
 # https://patchwork.kernel.org/patch/9820417/
 Patch305: qcom-msm89xx-fixes.patch
 
+#Patch306: arm-sdhci-esdhc-imx-fixes.patch
+
+Patch307: arm-tegra-fix-nouveau-crash.patch
+
 # https://marc.info/?l=linux-kernel&m=152328880417846&w=2
-#Patch307: arm64-thunderx-crypto-zip-fixes.patch
 
 # https://www.spinics.net/lists/linux-crypto/msg32725.html
-#Patch308: crypto-testmgr-Allow-different-compression-results.patch
+# https://patchwork.kernel.org/patch/10539291/
+Patch308: mmc-sunxi-allow-3.3V-DDR-when-DDR-is-available.patch
+# https://patchwork.kernel.org/patch/10540521/
+#Patch309: mmc-sunxi-remove-output-of-virtual-base-address.patch
 
-Patch309: arm-tegra-fix-nouveau-crash.patch
 
-# https://patchwork.kernel.org/patch/10346089/
-#Patch310: arm-dts-Add-am335x-pocketbeagle.patch
+Patch311: arm64-ZynqMP-firmware-clock-drivers-core.patch
 
-# https://www.spinics.net/lists/linux-tegra/msg32920.html
-#Patch311: arm-tegra-USB-driver-dependency-fix.patch
 
-# https://patchwork.kernel.org/patch/10348701/
-#Patch312: arm64-msm8916-fix-gic_irq_domain_translate-warnings.patch
-
-# https://patchwork.kernel.org/patch/10354521/
-# https://patchwork.kernel.org/patch/10354187/
-# https://patchwork.kernel.org/patch/10306793/
-# https://patchwork.kernel.org/patch/10133165/
-#Patch313: mvebu-a37xx-fixes.patch
-
-# Enabling Patches for the RPi3+
-#Patch330: bcm2837-rpi-initial-3plus-support.patch
 Patch332: bcm2837-enable-pmu.patch
-#Patch333: bcm2837-lan78xx-fixes.patch
+#Patch334: drm-vc4-Fix-the-no-scaling-case-on-multi-planar-YUV-formats.patch
+Patch350: arm64-arch_timer-Workaround-for-Allwinner-A64-timer-instability.patch
+Patch351: arm64-dts-allwinner-a64-Enable-A64-timer-workaround.patch
 
-# 400 - IBM (ppc/s390x) patches
-
-# 500 - Temp fixes/CVEs etc
-
-# rhbz 1476467
 Patch501: Fix-for-module-sig-verification.patch
 
 # rhbz 1431375
@@ -624,55 +613,12 @@ Patch501: Fix-for-module-sig-verification.patch
 # rhbz 1470995
 Patch503: kexec-bzimage-verify-pe-signature-fix.patch
 
-# rbhz 1435837
-# https://www.spinics.net/lists/linux-acpi/msg82405.html
-# Patch504: mailbox-ACPI-erroneous-error-message-when-parsing-ACPI.patch
+Patch504: xsa270.patch
 
-# https://www.spinics.net/lists/platform-driver-x86/msg15719.html
-#Patch507: platform-x86-dell-laptop-Fix-keyboard-backlight-time.patch
-
-# rhbz 1577106
-# http://lists.infradead.org/pipermail/ath10k/2018-June/011582.html
-# Patch508: ath10k-Update-the-phymode-along-with-bandwidth-change.patch
-
-# rhbz 1568276
-# In 4.18
-#Patch509: rtc-nvmem-don-t-return-an-error-when-not-enabled.patch
-
-# rhbz 1584216
-#Patch510: 1-2-xen-netfront-Fix-mismatched-rtnl_unlock.patch
-#Patch511: 2-2-xen-netfront-Update-features-after-registering-netdev.patch
-
-# rhbz 1591516
-#Patch515: 0001-signal-Stop-special-casing-TRAP_FIXME-and-FPE_FIXME-.patch
-
-# rhbz 1599917
-#Patch516: Bluetooth-btusb-Add-additional-device-ID-for-RTL8822.patch
-
-# rhbz 1572944
-#Patch517: Revert-the-random-series-for-4.16.4.patch
-
-# CVE-2018-13053 rhbz 1597747 1597748
 Patch518: alarmtimer-prevent-overflow-for-relative-nanosleep.patch
 
-# CVE-2018-12896 rhbz 1597759 1597760
 Patch519: 1-2-posix-timers-Make-forward-callback-return-s64.patch
 Patch520: 2-2-posix-timers-Sanitize-overrun-handling.patch
-
-# CVE-2018-13093 rhbz 1597766 1597767
-
-# CVE-2018-13094 rhbz 1597771 1597772
-#Patch522: 0001-xfs-don-t-call-xfs_da_shrink_inode-with-NULL-bp.patch
-
-# CVE-2018-13095 rhbz 1597775 1597777
-
-# CVE-2018-13405 rhbz 1599161 1599162
-#Patch524: CVE-2018-13405.patch
-
-# rhbz 1592976
-#Patch525: xen-remove-global-bit-from-__default_kernel_pte_mask.patch
-
-# rhbz 1597333
 
 # END OF PATCH DEFINITIONS
 
