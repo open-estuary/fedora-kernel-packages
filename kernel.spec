@@ -611,7 +611,7 @@ Patch501: Fix-for-module-sig-verification.patch
 #Patch502: input-rmi4-remove-the-need-for-artifical-IRQ.patch
 
 # rhbz 1470995
-Patch503: kexec-bzimage-verify-pe-signature-fix.patch
+#Patch503: kexec-bzimage-verify-pe-signature-fix.patch
 
 Patch504: xsa270.patch
 
