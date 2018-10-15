@@ -612,7 +612,6 @@ Patch501: Fix-for-module-sig-verification.patch
 #Patch503: kexec-bzimage-verify-pe-signature-fix.patch
 
 
-Patch518: alarmtimer-prevent-overflow-for-relative-nanosleep.patch
 
 Patch519: 1-2-posix-timers-Make-forward-callback-return-s64.patch
 Patch520: 2-2-posix-timers-Sanitize-overrun-handling.patch
