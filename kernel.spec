@@ -613,7 +613,6 @@ Patch501: Fix-for-module-sig-verification.patch
 
 
 
-Patch520: 2-2-posix-timers-Sanitize-overrun-handling.patch
 
 # END OF PATCH DEFINITIONS
 
