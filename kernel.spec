@@ -613,7 +613,6 @@ Patch501: Fix-for-module-sig-verification.patch
 
 
 
-Patch519: 1-2-posix-timers-Make-forward-callback-return-s64.patch
 Patch520: 2-2-posix-timers-Sanitize-overrun-handling.patch
 
 # END OF PATCH DEFINITIONS
