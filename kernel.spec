@@ -611,7 +611,6 @@ Patch501: Fix-for-module-sig-verification.patch
 # rhbz 1470995
 #Patch503: kexec-bzimage-verify-pe-signature-fix.patch
 
-Patch504: xsa270.patch
 
 Patch518: alarmtimer-prevent-overflow-for-relative-nanosleep.patch
 
