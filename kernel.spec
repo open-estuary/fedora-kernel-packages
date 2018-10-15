@@ -586,8 +586,6 @@ Patch305: qcom-msm89xx-fixes.patch
 
 #Patch306: arm-sdhci-esdhc-imx-fixes.patch
 
-Patch307: arm-tegra-fix-nouveau-crash.patch
-
 # https://marc.info/?l=linux-kernel&m=152328880417846&w=2
 
 # https://www.spinics.net/lists/linux-crypto/msg32725.html
